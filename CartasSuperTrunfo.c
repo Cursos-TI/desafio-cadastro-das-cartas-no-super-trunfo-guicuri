@@ -12,17 +12,17 @@ int main() {
     int  populacao, pontos_turisticos;
     float  area, pib;
 
-    printf("Insira os seguintes atributos das cidades: );
-    printf("\nPopulação: \n");
+    printf("Insira os seguintes atributos das cidades: \n");
+    printf("População: ");
     scanf("%i", &populacao);
-    printf("\nPontos turísticos: \n");
+    printf("Pontos turísticos: ");
 	scanf("%i", &pontos_turisticos);
-	printf("\nArea: \n");
+	printf("Area: ");
 	scanf("%f", &area);
-	printf("\PIB: \n");
+	printf("PIB: ");
 	scanf("%f", &pib);
 
-	printf("Cicade 1 \n Populacão: %i \n Pontos turísticos: %i \n Area: %f \n PIB: %f \n", populacao, pontos_turisticos, area, pib);
+	printf("\n  Cidade 1: \n Populacão: %i \n Pontos turísticos: %i \n Area: %f \n PIB: %f \n", populacao, pontos_turisticos, area, pib);
     
     
     // Cadastro das Cartas:
